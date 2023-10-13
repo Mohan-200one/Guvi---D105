@@ -1,0 +1,18 @@
+#To find the requested year is leap year or not
+set -e
+echo"Enter the year"
+read year
+if [year % 400 == 0];
+then
+echo "The $year is a leap year"
+elif [$year % 4 == 0];
+then
+echo "The $year is a leap year"
+elif [$year % 100 == 0];
+then
+echo "The $year is not a leap year"
+else
+echo "The $year is not a leap year"
+fi
+
+
