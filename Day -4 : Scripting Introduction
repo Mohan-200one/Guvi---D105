@@ -1,0 +1,11 @@
+# To create a file use touch command and to execute the script in it, the file should be in the extension of .sh
+touch sample.sh
+chmod +e sample.sh
+# To run the script in a file
+./sample.sh
+#To localize error
+set -e 
+# To get a input from a user
+read variable
+# To use a value in a variable add $ before the variable name
+echo "The value in the variable is $variable.
